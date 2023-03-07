@@ -1,0 +1,38 @@
+
+.FormDive{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Img/img5.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.FormDive:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 10vh;
+    bottom: 0;
+    background: rgba(255,255,255,.7);
+}
+.FromAndTopic{
+    height:min-content;
+    width: 40%;
+    color:black
+}
+.FromAndTopic h1{
+    text-align: center;
+    filter: brightness(120%);
+}
+Form{
+    filter: brightness(120%);
+}
+a{
+    color: red;
+}

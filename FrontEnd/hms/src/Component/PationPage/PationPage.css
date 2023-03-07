@@ -1,0 +1,94 @@
+.Body_Of_Pation_Page{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.Item_box{
+  height: 100%;
+  width: 15%;
+  background-color:rgb(240, 240, 240);
+  color: white;
+}
+.Image_Box{
+  width: 100%;
+  height: 15%;
+  background-color: rgb(34,45,49);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: 20px 10px;
+}
+.image_and_name{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: 5px 5px;
+}
+.image_and_name img{
+  width: 25%;
+  height: 50px;
+  width: auto; 
+  border: solid rgb(34,45,49) 2px; 
+  border-radius: 100px;
+}
+.Pation_name{
+  width: inherit;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: 5px 15px;
+}
+.Pation_name h6{
+  font-size: small;
+}
+.TopicBox{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(26, 34, 37);
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+}
+.TopicBox h6{
+  font-size: small;
+  width: auto;
+  height: min-content;
+}
+.Item_list{
+  background-color: rgb(34,45,49);
+  height: 75%;
+}
+
+.Body_Box{
+    height: 100%;
+    width: 85%;
+    background-color: white;
+    border: solid rebeccapurple 1px;
+}
+
+
+
+
+.sidebar {
+    width: 100%;
+    height: inherit;
+  }
+.sidebar ul {
+    list-style: none;
+  }  
+.sidebar li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+.sidebar  li a:hover {
+    background-color: #555;
+  }
